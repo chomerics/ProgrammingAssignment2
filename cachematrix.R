@@ -1,7 +1,8 @@
 ################################################################################
 ## Coursera R Programming HW Week 3 Lixicon Scoping
-## Create makeCacheMatrix function which will allow a value to be cached 
-## for the inverse matrix in x$setMatInv
+## Create makeCacheMatrix function which will allow a matrix to be cached
+## the function uses <<- to store the variable in a parent state for caching
+
 
 makeCacheMatrix <- function(x = matrix()) {
     MatInv <- NULL
